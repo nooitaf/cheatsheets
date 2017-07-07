@@ -19,3 +19,4 @@ start with
 ```shell
 /usr/local/nginx/sbin/nginx
 ```
+https://www.nginx.com/resources/admin-guide/installing-nginx-open-source/

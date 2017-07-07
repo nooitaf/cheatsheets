@@ -6,6 +6,15 @@ cd nginx
 make
 make install
 ```
+include the default nginx files
+```shell
+cat /usr/local/nginx/conf/nginx.conf
+include /etc/nginx/nginx.conf;
+```
+test with
+```shell
+/usr/local/nginx/sbin/nginx -t
+```
 start with
 ```shell
 /usr/local/nginx/sbin/nginx
